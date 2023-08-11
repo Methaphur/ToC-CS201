@@ -33,7 +33,7 @@ class DFA:
         return current_state.name in self.final_states
     
 
-# A simple test use case to check the DFA for even number of 1s 
+# A simple DFA that accepts a string with even number of 1s  
 
 q0 = State("q0")
 q1 = State("q1")
